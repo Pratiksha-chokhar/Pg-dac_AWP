@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Get Elements By Class Name</title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<p class="testClass">Para 1</p>
+	<h1 class="class2">Header 1</h1>
+	<h6 class="testClass">Header 6</h6>
+<script>
+var tagsByClass=
+	document.getElementsByClassName("testClass");
+tagsByClass[0].innerHTML="<u>"+tagsByClass[0].innerText+"</u>";
+
+tagsByClass[1].innerHTML="<b><i><u>"+
+tagsByClass[1].innerText+"</u></i></b>";
+
+</script>
+</body>
+</html>

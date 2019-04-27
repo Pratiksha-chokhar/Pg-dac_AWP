@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Get Elements By Name</title>
+<link href="style.css" rel="stylesheet" 
+type="text/css"/>
+</head>
+<body>
+	<p name="marol">This is para1</p>
+	<p name="marol">This is para2</p>
+<script>
+var names=document.getElementsByName("marol");
+names[0].innerText="Changed it to new Content 1";
+names[1].innerText="Changed it to new Content 2";
+</script>
+</body>
+</html>

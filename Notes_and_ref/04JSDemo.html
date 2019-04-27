@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Get Elements By Tag</title>
+<link href="style.css" rel="stylesheet" 
+type="text/css"/>
+</head>
+<body>
+	<p>Para1</p>
+	<p>Para2</p>
+	<p>Para3</p>	
+<script>
+	var allPTag=document.getElementsByTagName("p");
+	//Getting P Tag text content
+	var p1Text=allPTag[0].innerText;
+	allPTag[0].innerHTML="<i>"+p1Text+"</i>";
+	
+	var p2Text=allPTag[1].innerText;
+	allPTag[1].innerHTML="<b>"+p2Text+"</b>";
+
+	var p3Text=allPTag[2].innerText;
+	allPTag[2].innerHTML="<u>"+p3Text+"</u>";
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/*Tag Selectors*/
+body{
+	background-color:black;
+	color:white;	
+}
+img{
+ height:100px;
+ width:100px;	
+}
+/*Id Selectors*/
+#container{
+	width:300px;
+	
+}
+#div1{
+	float:right;
+}
+table{
+	border:2px solid blue;	
+}
+th,td{
+	border:2px solid red;	
+}
+
+
+
+

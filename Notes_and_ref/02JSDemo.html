@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Get Element By Id</title>
+<link href="style.css" rel="stylesheet" 
+type="text/css"/>
+<script >
+	/* MESSAGE BOX USIGN alert() window */	
+	alert("Welcome to JavaScript ");
+</script>
+</head>
+<body>
+Using JavaScript document.getElementById() method<br/>
+Message is written within below p tag where <br/>
+we selecting paragraph p using its Id
+<p id="p1"></p>
+<p id="p2">Content 1</p>
+<p id="p3">Content 2</p>
+<script >
+	/*Script is written in EOF body so once DOM Tree is loaded 
+	  below script will be executed	
+	*/
+	document.getElementById("p1").innerText="Welcome To JS ";
+	document.getElementById("p2").innerText="<b>Change to p2</b>";
+	document.getElementById("p3").innerHTML="<b>Change to p3</b>";
+</script>
+</body>
+</html>

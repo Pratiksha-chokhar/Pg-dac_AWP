@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Reading Text Input</title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<pre>
+Enter Your Name: <input type="text" id="userName"/>
+				<input type="button" onclick="displayMessage()"/>
+</pre>
+Above Code Demonstrates:
+1. getElementById() method to read Text Input
+2. Data of Text Input is read when there is Button click
+   event occurs it should called a function alert()
+   displaying Welcome Message "Welcome &lt;userName&gt;"
+<script>
+function displayMessage(){
+	var userName=document.getElementById("userName").value;
+	alert("Welcome "+userName);	
+	}
+</script>
+</body>
+</html>
